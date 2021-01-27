@@ -185,15 +185,17 @@ div .size{
   margin-bottom: 30px;
 }
 
-.linea{
+.linea-piccola{
   width: 15%;
   margin: 30px auto;
+  color: rgb(205, 205, 205);
 }
 
-.hr{
-  border-top: 2px solid rgb(157, 157, 157);
-}
 
+#linea-lunga{
+  margin: 0 1%;
+  color: rgb(205, 205, 205);
+}
 /* Piano */
 
 .content2{
@@ -228,8 +230,79 @@ color: rgb(57, 57, 57);
 }
 /* Footer */
 
-#grey{
+footer{
   background-color: rgb(199, 199, 199);
   width: 100%;
+  height: 175px;
+}
+
+.sector{
+  width: 80%;
   height: 150px;
+  margin: 0 10%;
+}
+
+.contenitore1{
+  position: relative;
+  width: 60%;
+  float: left;
+  bottom: 0;
+}
+
+.contenitore1 p{
+  font-size: 30px;
+  font-weight: bold;
+  padding-top: 60px;
+}
+
+.contenitore2{
+  width: 20%;
+  float: left;
+}
+
+.contenitore2 p{
+  font-size: 20px;
+  display: inline-block;
+  padding-top: 70px;
+  color: grey;
+}
+
+#margine{
+  margin-right: 20px;
+}
+
+.selezione{
+  color: grey;
+  font-size: 20px;
+  padding-right: 10px;
+  background-color: rgb(199, 199, 199);
+}
+
+.contenitore3{
+  width: 20%;
+  float: left;
+  padding-top: 70px;
+}
+
+.contenitore3 p:first-child{
+  margin-bottom: 10px;
+}
+
+.fixed1{
+  width: 80%;
+}
+
+.fixed2{
+  margin-left: 80px;
+  width: 27%;
+}
+
+.fine{
+  border: 1px solid rgb(4, 189, 0);
+  background-color: rgb(4, 189, 0);
+  border-radius: 5px;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+  padding: 10px 20px;
 }
